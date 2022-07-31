@@ -50,15 +50,17 @@ section#side-menu {
     flex-direction: column;
 }
 
-#side-menu img:hover {
-    border: 2px solid white;
-    transform: translate(-3px, -3px);
-}
-
 img.menu-btn {
     box-sizing: border-box;
     width: 60px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+
+
+img.menu-btn:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
 }
